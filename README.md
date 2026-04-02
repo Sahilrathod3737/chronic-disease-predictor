@@ -50,11 +50,6 @@ This project is an AI-driven healthcare tool designed to help medical profession
 
 The model is trained on the \*\*UCI Heart Disease Dataset\*\*, featuring 13 critical medical attributes.
 
-
-
-\---
-
 \*\*Developed by:\*\* Rathod Sahil Hareshbhai  
 
-\*\*Guided by:\*\* Prof. D. J. Varia
 
