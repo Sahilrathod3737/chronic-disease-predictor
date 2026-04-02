@@ -71,11 +71,10 @@ uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 
 if uploaded_file is not None:
     data = pd.read_csv(uploaded_file)
-   # st.write("Data Preview:", data.head())
-   # Purani line: st.write("Data Preview:", data.head())
-# Nayi line (Poora data dikhane ke liye):
-     st.write("Data Preview:", data)
+  
+    st.write("Data Preview:", data)
     # Button click check
+    
     if st.button("Predict All Patients"):
         # Technical Logic: Model features align karna
         input_cols = model.feature_names_in_
