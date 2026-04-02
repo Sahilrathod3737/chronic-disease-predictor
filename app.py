@@ -74,7 +74,7 @@ if uploaded_file is not None:
    # st.write("Data Preview:", data.head())
    # Purani line: st.write("Data Preview:", data.head())
 # Nayi line (Poora data dikhane ke liye):
-st.write("Data Preview:", data)
+     st.write("Data Preview:", data)
     # Button click check
     if st.button("Predict All Patients"):
         # Technical Logic: Model features align karna
